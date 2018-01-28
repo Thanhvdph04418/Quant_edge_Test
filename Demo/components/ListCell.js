@@ -92,7 +92,7 @@ export default class ListCell extends Component {
     return (
       <View>
         <View style={styles.ViewHead}>
-          <Text style={{ flex: 1.5, fontSize: 12, color: '#0099CC', fontWeight: 'bold' }}> {code}.afterChange </Text>
+          <Text style={{ flex: 1.5, fontSize: 12, color: '#0099CC', fontWeight: 'bold' }}> {code}.AX </Text>
           <Text style={{ flex: 2, fontSize: 12 }} > {company} </Text>
           <Text style={{ flex: 1, fontSize: 12, fontWeight: 'bold', color: 'black' }}  > {Math.round(price * 100) / 100} </Text>
           {this._renderValue()}

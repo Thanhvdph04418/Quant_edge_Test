@@ -19,10 +19,21 @@ const myApp = TabNavigator({
   },
   Loser: {
     screen: LosersScreen,
-  },
-}, {
     navigationOptions: {
       tabBarLabel: 'Top Losers',
+    }
+  },
+}, {
+    tabBarOptions: {
+      activeTintColor: '#ffffff',
+      inactiveTintColor: '#ffffff',
+      inactiveBackgroundColor: '#353539',
+      activeBackgroundColor: '#353539',
+      showIcon: false,
+      indicatorStyle: {
+        borderBottomColor: 'red',
+        borderBottomWidth: 2,
+      }
     }
   });
 
